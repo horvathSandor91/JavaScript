@@ -1,0 +1,11 @@
+﻿var a = 'Gyuri';
+switch (a) {
+  case 'Rudi':
+    alert('Rudi');
+    break;
+  case 'Monika':
+    alert('Monika');
+    break;
+  default:
+    alert('Semmi sem igaz ebből');
+}

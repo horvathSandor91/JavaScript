@@ -1,0 +1,6 @@
+var a = 4;
+while(a < 3);{
+alert('A értéke ' + a);
+a = a + 1;
+}
+alert ('A értéke már ' + a);

@@ -1,0 +1,13 @@
+function censor(text, change, newone) {
+  var vissza = text;
+  while (vissza.includes(change)) {
+
+
+    vissza = vissza.replace(change, newone);
+
+  }
+  return vissza;
+}
+
+var result = censor('a ház szép nagy ház', 'ház', 'autó');
+alert(result);

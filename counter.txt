@@ -1,0 +1,14 @@
+﻿// számláló, megszámolja h a feltételből mennyi igaz db-ra
+
+
+
+var tomb = [2,1,4,6,9,34,23,1,5,6,8,9];
+
+var szamlalo = 0;
+
+for(i=0;i<tomb.length;i++)
+if(tomb[i]>5)
+szamlalo++;
+
+alert(szamlalo);
+

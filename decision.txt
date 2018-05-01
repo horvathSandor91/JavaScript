@@ -1,0 +1,17 @@
+﻿// eldöntés, az adott tömb-ben megtalálható e vagy sem
+
+var tomb = [9,34,1,86,3,1,8,9,6];
+
+
+var kereses = 6;
+
+var i = 0;
+
+while ( i<tomb.length && tomb[i] != kereses)
+i++;
+
+if ( i<tomb.length)
+alert('találat!');
+else
+alert('nincs találat!');
+

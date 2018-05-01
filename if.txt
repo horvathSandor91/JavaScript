@@ -1,0 +1,9 @@
+var ageOfGyula = 17;
+if (ageOfGyula < 16) {
+alert('Gyula nem vezethet');
+} else if ( ageOfGyula == 16) {
+alert('Gyula mar majdnem vezethet');
+}
+else {
+alert('Gyula vezethet');
+}

@@ -1,0 +1,14 @@
+// kiválasztás amit keresek az hányadik helyen áll
+
+var tomb = [ 2,6,3,7,1];
+
+
+var keresett = 7;
+var i = 0;
+
+while(i<tomb.length && tomb[i] != keresett)
+
+i++;
+
+var eredmeny = i+1;
+alert(eredmeny);

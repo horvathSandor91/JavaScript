@@ -1,0 +1,7 @@
+var lista1 = ['grape', 'banana', 'apple'];
+var lista2 = lista1;
+
+lista2[2] = 'paradicsom';
+alert (lista2);
+
+alert (lista1 === lista2);  // == érték vizsgálat ,=== érték és adattípus vizsgálat

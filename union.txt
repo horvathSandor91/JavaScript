@@ -1,0 +1,23 @@
+// unió tétele 
+
+var tomb = [1, 2, 3, 4, 5, 6, 7, 8, 9, 20, 30];
+var tomb1 = [3, 6, 8, 9, 12, 23, 56, 76, 21];
+
+var meret = tomb.length;
+var meret1 = tomb1.length;
+var tombUnio = [];
+for (i = 0; i < meret; i++)
+  tombUnio[i] = tomb[i];
+var k = meret;
+for (j = 0; j < meret1; j++) {
+  var i = 0;
+  while (i < meret && tomb[i] != tomb1[j])
+    i++;
+  if (i >= meret) {
+    tombUnio[k++] = tomb1[j];
+  }
+}
+// ellenőrzés
+alert(tombUnio.length);
+for (v = 0; v < tombUnio.length; v++)
+  alert(tombUnio[v]);

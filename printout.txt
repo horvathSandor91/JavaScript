@@ -1,0 +1,6 @@
+var fruits = ['banana','apple','grape'];
+var size = fruits.length;
+
+for(i = 0;i<size;i++){
+alert(fruits[i]);
+}

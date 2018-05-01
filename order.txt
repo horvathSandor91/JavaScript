@@ -1,0 +1,4 @@
+var fruits = ['grape', 'apple', 'banana'];
+fruits.sort();
+alert(fruits[2]);
+

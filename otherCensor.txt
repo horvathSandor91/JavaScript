@@ -1,0 +1,9 @@
+
+function censor(text,toChange,newWord){
+var toReturn = text.replace(toChange,newWord);
+return toReturn;
+}
+
+var result = censor('a kutya aranyos állat','kutya','macska');
+alert (result);
+

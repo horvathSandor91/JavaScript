@@ -1,0 +1,12 @@
+function positiveCheck(number) {
+  if (number > 0){
+ 
+    return true;
+}else {
+  return false;
+
+}
+}
+
+alert(positiveCheck(6));
+

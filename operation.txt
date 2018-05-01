@@ -1,0 +1,9 @@
+function house (a,b){
+var result = (a + b)*2/4;
+alert(result);
+return result;
+
+
+} 
+var eztkaptam =  house(3,5);
+alert(eztkaptam);

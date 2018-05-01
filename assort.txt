@@ -1,0 +1,23 @@
+// kiválogatás 
+
+var tomb = [2, 4, 7, 86, 233, 56, 7];
+
+
+
+var meret = tomb.length;
+var ujTomb = [];
+var j = 0;
+
+for (i = 0; i < meret; i++)
+if (tomb[i] > 6)
+  ujTomb[j++] = tomb[i];
+
+var ujTombmeret = j;
+
+// ellenőrzés
+
+for (i = 0; i < meret; i++)
+alert(tomb[i]);
+
+for ( i=0;i<ujTombmeret;i++)
+alert(ujTomb[i]);

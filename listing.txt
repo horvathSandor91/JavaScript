@@ -1,0 +1,16 @@
+var osztaly = ['Feri', 'Gabi', 'Jani', 'Józsi', 'Szirén'];
+
+function listaz(lista) {
+    var vissza = '';
+  for (i = 0; i < lista.length; i++) {
+
+    vissza = vissza + (i + 1) + '. ' + lista[i] + '\n';
+
+
+  }
+  return vissza;
+
+}
+
+
+alert(listaz(osztaly));
